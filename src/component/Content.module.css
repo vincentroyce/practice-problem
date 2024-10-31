@@ -1,0 +1,10 @@
+@keyframes animate {
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.Beat {
+  animation: animate 1s ease infinite alternate;
+}
+
